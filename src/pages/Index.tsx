@@ -24,14 +24,30 @@ const Index = () => {
     },
     {
       id: 2,
-      name: 'ПВХ плитка',
-      description: 'Влагостойкое решение для кухни и ванной',
+      name: 'SPC Плитка',
+      description: 'Жесткая каменно-полимерная плитка повышенной прочности',
       image: 'https://cdn.poehali.dev/projects/10df9f0c-7236-4881-8591-1010758e79f2/files/46b729c4-78cc-4aa3-8012-d4d15019cd0d.jpg',
-      icon: 'Grid3x3',
-      products: 18
+      icon: 'Square',
+      products: 8
     },
     {
       id: 3,
+      name: 'LVT Плитка',
+      description: 'Гибкая виниловая плитка с декоративным слоем',
+      image: 'https://cdn.poehali.dev/projects/10df9f0c-7236-4881-8591-1010758e79f2/files/46b729c4-78cc-4aa3-8012-d4d15019cd0d.jpg',
+      icon: 'Grid3x3',
+      products: 6
+    },
+    {
+      id: 4,
+      name: 'MPL Плитка',
+      description: 'Многослойная плитка с замковым соединением',
+      image: 'https://cdn.poehali.dev/projects/10df9f0c-7236-4881-8591-1010758e79f2/files/46b729c4-78cc-4aa3-8012-d4d15019cd0d.jpg',
+      icon: 'Package',
+      products: 4
+    },
+    {
+      id: 5,
       name: 'Керамогранит',
       description: 'Элитное покрытие премиум-класса',
       image: 'https://cdn.poehali.dev/projects/10df9f0c-7236-4881-8591-1010758e79f2/files/141dcc24-eed7-4300-a21e-74eecb8e1790.jpg',
@@ -39,7 +55,7 @@ const Index = () => {
       products: 15
     },
     {
-      id: 4,
+      id: 6,
       name: 'Террасные системы',
       description: 'Надежное покрытие для террас и балконов',
       image: 'https://cdn.poehali.dev/projects/10df9f0c-7236-4881-8591-1010758e79f2/files/3a51af03-1374-42c6-94d6-c5a4dcea0c45.jpg',
@@ -167,7 +183,7 @@ const Index = () => {
               Выберите подходящий тип напольного покрытия для вашего проекта
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map((category, index) => (
               <Card
                 key={category.id}
