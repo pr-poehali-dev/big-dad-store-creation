@@ -79,7 +79,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <img 
-                src="https://cdn.poehali.dev/projects/10df9f0c-7236-4881-8591-1010758e79f2/files/e99fe453-288a-4db3-9c8b-17ed4d94eab6.jpg" 
+                src="https://cdn.poehali.dev/projects/10df9f0c-7236-4881-8591-1010758e79f2/files/34571142-44a5-4705-bf4a-42a677a1e42f.jpg" 
                 alt="Большой Папа" 
                 className="w-10 h-10 rounded-full object-cover"
               />
@@ -367,7 +367,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center gap-2 mb-4 md:mb-0">
               <img 
-                src="https://cdn.poehali.dev/projects/10df9f0c-7236-4881-8591-1010758e79f2/files/e99fe453-288a-4db3-9c8b-17ed4d94eab6.jpg" 
+                src="https://cdn.poehali.dev/projects/10df9f0c-7236-4881-8591-1010758e79f2/files/34571142-44a5-4705-bf4a-42a677a1e42f.jpg" 
                 alt="Большой Папа" 
                 className="w-8 h-8 rounded-full object-cover"
               />
